@@ -5,7 +5,7 @@ O seguinte projeto consiste em construir um board customizável de tarefas em Ja
 - O código deve iniciar disponibilizando um menu com as seguintes opções: Criar novo board, Selecionar board, Excluir boards, Sair;
 - O código deve salvar o board com suas informações no banco de dados MySQL;
 
-## Tecnologias Utilizadas
+## Tecnologias Utilizadas:
 
  <p align="center">
   <a href="https://skillicons.dev">
@@ -13,7 +13,6 @@ O seguinte projeto consiste em construir um board customizável de tarefas em Ja
   </a>
 </p>
           
-
   ## Regras dos boards:
 - Um board deve ter um nome e ser composto por pelo menos 3 colunas ( coluna onde o card é colocado inicialmente, coluna para cards com tarefas concluídas e coluna para cards cancelados, a nomenclatura das colunas é de escolha livre);
 - As colunas tem seu respectivo nome, ordem que aparece no board e seu tipo (Inicial, cancelamento, final e pendente);
