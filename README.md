@@ -13,7 +13,7 @@ O projeto consiste em construir um board customizável de tarefas em Java, esegu
 | <a href="https://www.java.com/"><img src="https://skillicons.dev/icons?i=java" alt="Java"/></a> 
 <a href="https://spring.io/"><img src="https://skillicons.dev/icons?i=spring" alt="Spring"/></a> 
 <a href="https://www.postgresql.org/"><img src="https://skillicons.dev/icons?i=mysql" alt="MySQL"/></a> 
-<a href= "https://maven.apache.org//">< img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/maven/maven-original.svg" alt= "Maven"/></a>
+<a href= "https://maven.apache.org//">< img src="https://skillicons.dev/icons?i=maven" alt= "Maven"/></a>
           
 
 
