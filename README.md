@@ -6,11 +6,9 @@ O seguinte projeto consiste em construir um board customizável de tarefas em Ja
 - O código deve salvar o board com suas informações no banco de dados MySQL;
 
 ## Tecnologias Utilizadas
- 
-|-------------|
-|<p align="center">
+ <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=JAVA, spring,mysql,maven," />
+    <img src="https://skillicons.dev/icons?i= java,spring,mysql,maven," />
   </a>
 </p>
           
