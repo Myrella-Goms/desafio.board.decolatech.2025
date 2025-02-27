@@ -1,5 +1,5 @@
 ## Board para gerenciamento de tarefas com Java ☕
-O seguinte projeto consiste em construir um board customizável de tarefas em Java, seguindo boas práticas de programação.
+O seguinte projeto consiste em construir um board customizável de tarefas em Java, utilizando Maven, Liquibase e MySQL, seguindo boas práticas de programação.
 
 ## Requisitos do projeto
 - O código deve iniciar disponibilizando um menu com as seguintes opções: Criar novo board, Selecionar board, Excluir boards, Sair;
