@@ -26,4 +26,4 @@ O seguinte projeto consiste em construir um board customizável de tarefas em Ja
   - O menu deve permitir mover o card para próxima coluna, cancelar um card, criar um card, bloquea-lo, desbloquea-lo e fechar board.
     
  ## Imagens do projeto
- 
+ <img src="https://github.com/Myrella-Goms/desafio.board.decolatech.2025/blob/master/Captura%20de%20tela%202025-02-27%20204508.png">
