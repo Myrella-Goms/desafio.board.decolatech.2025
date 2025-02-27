@@ -1,0 +1,48 @@
+fev. 27, 2025 12:00:51 AM liquibase.changelog
+INFORMAÇÕES: Reading resource: db/changelog/migrations/db.changelog-202502252235.sql
+fev. 27, 2025 12:00:51 AM liquibase.changelog
+INFORMAÇÕES: Reading resource: db/changelog/migrations/db.changelog-202502261609.sql
+fev. 27, 2025 12:00:51 AM liquibase.changelog
+INFORMAÇÕES: Reading resource: db/changelog/migrations/db.changelog-202502261619.sql
+fev. 27, 2025 12:00:51 AM liquibase.changelog
+INFORMAÇÕES: Reading resource: db/changelog/migrations/db.changelog-202502261621.sql
+fev. 27, 2025 12:00:52 AM liquibase.changelog
+INFORMAÇÕES: Reading from db_board.databasechangelog
+fev. 27, 2025 12:00:52 AM liquibase.changelog
+INFORMAÇÕES: Change failed validation!
+fev. 27, 2025 12:00:52 AM liquibase.command
+INFORMAÇÕES: Logging exception.
+ERROR: Exception Details
+ERROR: Exception Primary Class:  ValidationFailedException
+ERROR: Exception Primary Reason: Validation Failed:
+     1 changesets check sum
+          db/changelog/migrations/db.changelog-202502261609.sql::202502261609::myrella was: 9:f42b69e31f5a6c81f847a43dec079f44 but is now: 9:04b444c8584ccf716900d2d7a6efa5ed
+
+ERROR: Exception Primary Source: 4.25.1
+fev. 27, 2025 12:00:52 AM liquibase.command
+INFORMAÇÕES: Command execution complete
+liquibase.exception.CommandExecutionException: liquibase.exception.ValidationFailedException: Validation Failed:
+     1 changesets check sum
+          db/changelog/migrations/db.changelog-202502261609.sql::202502261609::myrella was: 9:f42b69e31f5a6c81f847a43dec079f44 but is now: 9:04b444c8584ccf716900d2d7a6efa5ed
+
+	at liquibase.command.CommandScope.execute(CommandScope.java:253)
+	at liquibase.Liquibase.lambda$update$0(Liquibase.java:245)
+	at liquibase.Scope.lambda$child$0(Scope.java:186)
+	at liquibase.Scope.child(Scope.java:195)
+	at liquibase.Scope.child(Scope.java:185)
+	at liquibase.Scope.child(Scope.java:164)
+	at liquibase.Liquibase.runInScope(Liquibase.java:1419)
+	at liquibase.Liquibase.update(Liquibase.java:234)
+	at liquibase.Liquibase.update(Liquibase.java:212)
+	at liquibase.Liquibase.update(Liquibase.java:194)
+	at liquibase.Liquibase.update(Liquibase.java:164)
+	at dio.me.persistence.migration.MigrationStrategy.executeMigration(MigrationStrategy.java:37)
+	at dio.me.Application.main(Application.java:13)
+Caused by: liquibase.exception.ValidationFailedException: Validation Failed:
+     1 changesets check sum
+          db/changelog/migrations/db.changelog-202502261609.sql::202502261609::myrella was: 9:f42b69e31f5a6c81f847a43dec079f44 but is now: 9:04b444c8584ccf716900d2d7a6efa5ed
+
+	at liquibase.changelog.DatabaseChangeLog.validate(DatabaseChangeLog.java:358)
+	at liquibase.command.core.helpers.DatabaseChangelogCommandStep.run(DatabaseChangelogCommandStep.java:92)
+	at liquibase.command.CommandScope.execute(CommandScope.java:217)
+	... 12 more
