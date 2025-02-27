@@ -1,7 +1,5 @@
 ## Board para gerenciamento de tarefas com Java ☕
-
-## Desafio de Projeto
-O projeto consiste em construir um board customizável de tarefas em Java, eseguindo boas práticas de programação.
+O seguinte projeto consiste em construir um board customizável de tarefas em Java, seguindo boas práticas de programação.
 
 ## Requisitos do projeto
     1 - O código deve iniciar disponibilizando um menu com as seguintes opções: Criar novo board, Selecionar board, Excluir boards, Sair;
@@ -10,12 +8,12 @@ O projeto consiste em construir um board customizável de tarefas em Java, esegu
 ## Tecnologias Utilizadas
 |  |
 |-------------|
-| <a href="https://www.java.com/"><img src="https://skillicons.dev/icons?i=java" alt="Java"/></a> 
-<a href="https://spring.io/"><img src="https://skillicons.dev/icons?i=spring" alt="Spring"/></a> 
-<a href="https://www.postgresql.org/"><img src="https://skillicons.dev/icons?i=mysql" alt="MySQL"/></a> 
-<a href= "https://maven.apache.org//">< img src="https://skillicons.dev/icons?i=maven" alt= "Maven"/></a>
+| <p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=spring,mysql,maven," />
+  </a>
+</p>
           
-
 
   ## Regras dos boards
     1 - Um board deve ter um nome e ser composto por pelo menos 3 colunas ( coluna onde o card é colocado inicialmente, coluna para cards com tarefas concluídas e coluna para cards cancelados, a nomenclatura das colunas é de escolha livre);
@@ -38,3 +36,4 @@ cd <NOME-DO-REPOSITORIO>
 2. Configure o banco de dados MySQL:
     - Crie um banco de dados chamado `db_boards`.
     - Crie o arquivo `liquibase.properties` com as credenciais do seu banco de dados.
+    - Crie a 
