@@ -6,7 +6,9 @@ O seguinte projeto consiste em construir um board customizável de tarefas em Ja
 - O código deve salvar o board com suas informações no banco de dados MySQL;
 
 ## Tecnologias Utilizadas
- <p align="center">
+ 
+|-------------|
+|<p align="center">
   <a href="https://skillicons.dev">
     <img src="https://skillicons.dev/icons?i=JAVA, spring,mysql,maven," />
   </a>
@@ -24,6 +26,6 @@ O seguinte projeto consiste em construir um board customizável de tarefas em Ja
 
   ## Menu de manipulação de board selecionado
   - O menu deve permitir mover o card para próxima coluna, cancelar um card, criar um card, bloquea-lo, desbloquea-lo e fechar board.
-  - 
+    
  ## Imagens do projeto
  
