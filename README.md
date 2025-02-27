@@ -2,8 +2,8 @@
 O seguinte projeto consiste em construir um board customizável de tarefas em Java, seguindo boas práticas de programação.
 
 ## Requisitos do projeto
-    1 - O código deve iniciar disponibilizando um menu com as seguintes opções: Criar novo board, Selecionar board, Excluir boards, Sair;
-    2 - O código deve salvar o board com suas informações no banco de dados MySQL;
+- O código deve iniciar disponibilizando um menu com as seguintes opções: Criar novo board, Selecionar board, Excluir boards, Sair;
+- O código deve salvar o board com suas informações no banco de dados MySQL;
 
 ## Tecnologias Utilizadas
 |  |
