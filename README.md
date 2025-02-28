@@ -29,3 +29,5 @@ O seguinte projeto consiste em construir um board customizável de tarefas em Ja
  <img src="https://github.com/Myrella-Goms/desafio.board.decolatech.2025/blob/master/Captura%20de%20tela%202025-02-27%20204508.png">
  <img src="https://github.com/Myrella-Goms/desafio.board.decolatech.2025/blob/master/Captura%20de%20tela%202025-02-27%20204553.png">
  <img src="https://github.com/Myrella-Goms/desafio.board.decolatech.2025/blob/master/Captura%20de%20tela%202025-02-27%20204722.png">
+ <img src="https://github.com/Myrella-Goms/desafio.board.decolatech.2025/blob/master/Captura%20de%20tela%202025-02-27%20210902.png">
+
